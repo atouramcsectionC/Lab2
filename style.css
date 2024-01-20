@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;/*Enable Flexbox*/
+    justify-content: space-around; /*Distriubute space around items */
+    align-items: flex-end; /* flex-end vertically*/
+    padding: 5%; /* adds some padding around flex container */
+    background-color: black; /* background color for the flex container */
+}
+.flex-item{ 
+    background-color: aquamarine; /* black background for the flex items */
+    border: 2cap solid ; /* black background border for flex items */
+    padding: 5%; /* adds some padding inside the flex items */
+    margin: 3%; /* adds margin around around the flex items */
+    font-size: x-large;
+    text-align: center;
+    flex-grow: 1; /* allows flex items to grow to fill availble space */
+}
+.flex-container {
+    display: flex;/*Enable Flexbox*/
+    justify-content: space-around; /*Distriubute space around items */
+    align-items: flex-end; /* flex-end vertically*/
+    padding: 5%; /* adds some padding around flex container */
+    background-color: black; /* background color for the flex container */
+}
+.flex-item{
+    background-color: aquamarine; /* black background for the flex items */
+    border: 2cap; /* black background border for flex item */
+    padding: 5%; /* adds some padding inside the flex items */
+    margin: 3%; /* adds margin around around the flex items */
+    font-size: x-large;
+    text-align: center;
+    flex-grow: 1; /* allows flex items to grow to fill availble space */
+}
